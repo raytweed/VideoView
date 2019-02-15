@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
         nex.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                count+=1;
+                count++;
                 if(imgf[0]>3){
                     Toast.makeText(getApplicationContext(),"No Next Image",Toast.LENGTH_SHORT).show();
                 }else if(imgf[0]==count){
